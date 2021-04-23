@@ -1,5 +1,4 @@
 const { expect } = require('chai')
-// const axios = require('axios')
 
 const app = require('supertest')(require('../app'))
 
