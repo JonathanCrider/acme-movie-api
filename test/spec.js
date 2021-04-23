@@ -13,6 +13,7 @@ describe('Routes', function() {
     it('shows some info', async function() {
       const response = await app.get('/');
       expect(response.text).to.include('Acme Movie API');
+      expect(response.status).to.equal(200);
     });
   });
 });
